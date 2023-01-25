@@ -1,0 +1,45 @@
+﻿@page "/konvertering"
+
+<PageTitle>Konvertering</PageTitle>
+
+<h1>Konvertering</h1>
+
+<!--Konvertera meter till foot-->
+<p>Konvertera meter till foot</p>
+
+<input type="number" @bind="inputValue" /> meter
+
+<button @onclick="getValue">Konvertera</button>
+<input value="@NewValue" /> fot
+
+@code {
+    private double inputValue { get; set; }
+    private double NewValue { get; set; }
+
+    private double foot = 3.28;
+
+    private void getValue()
+    { //avrundar värder med Math Round, skriver in 1 då jag endast vill ha en decimal
+        NewValue = Math.Round(inputValue * foot, 1);
+    }
+}
+
+<!--Konvertera km/h till miles/hour-->
+<p>Konvertera km/h till miles/hour</p>
+
+<input type="number" @bind="inputKm" /> km/h
+
+<button @onclick="getMiles">Konvertera</button>
+<input value="@NewSpeed" /> mph
+
+@code {
+    private double inputKm { get; set; }
+    private double NewSpeed { get; set; }
+
+    private double miles = 0.62137;
+
+    private void getMiles()
+    { //avrundar värder med Math Round, skriver inte in någon siffra då jag inte vil ha en enda decimal
+        NewSpeed = Math.Round(inputKm * miles);
+    }
+}

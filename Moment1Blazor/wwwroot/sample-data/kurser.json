@@ -1,0 +1,66 @@
+[{
+    "kurskod": "DT057G",
+    "kursnamn": "Webbutveckling I",
+    "progression": "A",
+    "kursplan": "https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=22782",
+    "termin": "HT21"
+  },{
+    "kurskod": "DT162G",
+    "kursnamn": "Javascript-baserad webbutveckling",
+    "progression": "A",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=31961",
+    "termin": "HT21"
+  },{
+    "kurskod": "DT068G",
+    "kursnamn": "Webbanvändbarhet",
+    "progression": "B",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=30823",
+    "termin": "HT21"
+  },{
+    
+    "kurskod": "DT163G",
+    "kursnamn": "Digital bildbehandling för webb",
+    "progression": "A",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=24403",
+    "termin": "HT21"
+  },{
+    
+    "kurskod": "DT003G",
+    "kursnamn": "Databaser",
+    "progression": "A",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=30823",
+    "termin": "VT22"
+  },{
+   
+    "kurskod": "DT093G",
+    "kursnamn": "Webbutveckling II",
+    "progression": "B",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=27133",
+    "termin": "VT22"
+  },{
+    
+    "kurskod": "DT197G",
+    "kursnamn": "Webbdesign för CMS",
+    "progression": "B",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=31942",
+    "termin": "VT22"
+  },{
+    
+    "kurskod": "DT173G",
+    "kursnamn": "Webbutveckling III",
+    "progression": "B",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=31475",
+    "termin": "VT22"
+  },{
+    "kurskod": "IG021G",
+    "kursnamn": "Projektledning",
+    "progression": "A",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=22183",
+    "termin": "HT22"
+  },{
+    "kurskod": "DT193G",
+    "kursnamn": "Fullstack-utveckling med ramverk",
+    "progression": "B",
+    "kursplan": "https://www.miun.se/utbildning/syllabuser-och-utbildningsplaner/Sok-syllabus/syllabus/?syllabusid=31728",
+    "termin": "HT22"
+  }]

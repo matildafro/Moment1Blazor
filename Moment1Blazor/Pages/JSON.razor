@@ -1,0 +1,61 @@
+﻿@page "/json"
+@inject HttpClient Http
+
+<PageTitle>JSON</PageTitle>
+
+<h1>JSON</h1>
+<p>Nedan hämtas data med hjälp av HttpClient. Filen kurser.json läses ut från mapp sample-data och listar det i tabell. 
+	För att läsa ut datorn har klassen Kurser skapats.
+</p>
+
+@if(kurser == null)
+{
+	<img src="img/hourglass.gif" />
+	
+} else
+{
+	<table>
+		<thead>
+		<tr>
+		<th>Kurskod</th>
+		<th>Kursnamn</th>
+		<th>Progression</th>
+		<th>Kursplan</th>
+		<th>Termin</th>
+		</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var kurs in kurser)
+			{
+				<tr>
+					<td>@kurs.kurskod</td>
+					<td>@kurs.kursnamn</td>
+					<td>@kurs.progression</td>
+					<td><a href="@kurs.kursplan" target="_blank">Kursplan</a></td>
+					<td>@kurs.termin</td>
+				</tr>
+			}
+		</tbody>
+
+	</table>
+}
+
+@code {
+
+	private Kurser[]? kurser;
+
+	protected override async Task OnInitializedAsync()
+	{
+		kurser = await Http.GetFromJsonAsync<Kurser[]>("sample-data/kurser.json");
+	}
+
+	public class Kurser
+	{
+		public string? kurskod { get; set; }
+		public string? kursnamn { get; set; }
+		public string? progression { get; set; }
+		public string? kursplan { get; set; }
+		public string? termin { get; set; }
+	}
+}

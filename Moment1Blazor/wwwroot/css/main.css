@@ -1,0 +1,92 @@
+﻿* {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    width: 99%;
+    display: table;
+}
+
+nav {
+    width: 290px;
+    float: left;
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+}
+
+.listitem {
+    width: 90%;
+    margin-top: 20px;
+    padding: 8px;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 4px;
+}
+
+.listitem a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.listitem .nav-active {
+    color: #f3802f;
+}
+
+img {
+    width: 25%;
+    border: 2px solid black;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: 0;
+}
+
+main {
+    width: 70%;
+    margin-left: 320px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.borderaround {
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+table a {
+    color: black;
+}
+
+button {
+    background-color: #f3802f;
+    color: white;
+    cursor: pointer;
+}
+
+body > footer {
+    display: table-row;
+    text-align: center;
+    width: 100%;
+}
+
+.borderaround {
+    border: 2px solid black;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+
